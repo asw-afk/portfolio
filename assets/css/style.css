@@ -1,0 +1,203 @@
+:root {
+
+    --color1: #171a19;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color:rgb(180, 17, 17); 
+    background-color: var(--color1)}
+
+header h1 {
+color: var(--color1);
+border-style: initial;
+background-color: #1bc08f;
+background-size: 29%;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size:larger;
+    color:#47cbe2;
+}
+
+header button:hover {
+    background-color: #757474;
+    cursor: pointer;
+}
+
+header button {
+    
+    border-top: #0000;
+    border-left: #0000;
+    border-right: #0000;
+    justify-content: space-between;
+    display:left;
+    background-color:#0000;
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#banner {
+    position:relative;
+
+}
+
+
+.banner {
+
+    height: 400px;
+    width: 80%;
+    /* margin: 30px auto; */
+    border: 10px solid black;
+    display: block;
+
+    /* display: block;
+    unicode-bidi:isolate;
+    position: relative;
+    top:0;
+    bottom: 200px;
+    top: 0;
+    left: 0;
+    z-index: 198;
+    font-family: inherit;
+    font-size: 12px;
+    min-width: 1000px;
+    box-sizing: border-box;
+    display: none; */
+  
+}
+
+#aside {
+    margin-bottom: 32px;
+    color:#ffffff;
+    margin-bottom:10px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    font-size: 2.90rem;
+    border-
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-color: #0000;
+}
+
+.hover-class {
+    border: 1px solid #0000;
+    
+}
+
+
+
+.test {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+}
+
+
+main {
+
+
+
+}
+
+
+
+
+table {
+   
+   border-spacing:30px;
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    border: 98px solid rgb(red, green, blue);
+    border-bottom-width: 200px;
+    font-family: sans-serif;
+    font-size: 2.80rem;
+    letter-spacing: 1px;
+    word-spacing: 40px;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.table nav {
+    display: flex;
+    word-spacing: 200px;
+    position: relative;
+    right: 43495px;
+}
+
+tr {
+    display: table-row;
+    vertical-align:inherit;
+}
+
+/* 
+thead, tfoot {
+    background-color: rgb(228 240 245);
+}
+
+th, td {
+    border: 1px solid rgb(160 160 160)
+    padding: 8px 10px;
+    word-spacing: 40px;
+}
+
+time */
+
+table td:hover {
+    color:rgb(150, 150, 150);
+    cursor: pointer;
+} 
+
+
+#pikachu {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+
+
+@media screen and (max-width: 789px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        max-width: 789px;
+    }
+    aside {
+        flex-direction: column;
+        max-width:fit-content;
+        inherit
+    }
+
+}
