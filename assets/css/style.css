@@ -4,29 +4,59 @@
 
 }
 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 header {
+    
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
     color:rgb(180, 17, 17); 
-    background-color: var(--color1)}
+    background-color: var(--color1)};
+    
 
-header h1 {
+ header h1 {
 color: var(--color1);
 border-style: initial;
 background-color: #1bc08f;
-background-size: 29%;
+background-size: 70%;
+background-position: 0%;
 }
 
-header nav ul {
-    list-style-type: none;
+#top {
+    display: flex;
+    justify-content: space-between;
 }
 
-header nav ul li {
-    display: inline-block;
-    font-size:larger;
-    color:#47cbe2;
+#image {
+    background: url("skyscraper.jpg");
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+#banner {
+    padding: 16px;
+}
+/* #top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: red;
+} */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
 
 header button:hover {
@@ -47,19 +77,17 @@ header button {
    
 }
 
-#banner {
-    position:relative;
 
-}
+   
 
 
-.banner {
+/* .banner {
 
     height: 400px;
     width: 80%;
-    /* margin: 30px auto; */
+     margin: 30px auto;
     border: 10px solid black;
-    display: block;
+    display: block;  */
 
     /* display: block;
     unicode-bidi:isolate;
@@ -75,7 +103,7 @@ header button {
     box-sizing: border-box;
     display: none; */
   
-}
+
 
 #aside {
     margin-bottom: 32px;
@@ -86,7 +114,7 @@ header button {
     margin: 10px auto;
     max-width: 150px;
     font-size: 2.90rem;
-    border-
+   
 }
 
 .benefits {
@@ -176,13 +204,6 @@ table td:hover {
 } 
 
 
-#pikachu {
-    display:flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-
-
 
 
 @media screen and (max-width: 789px) {
@@ -197,7 +218,6 @@ table td:hover {
     aside {
         flex-direction: column;
         max-width:fit-content;
-        inherit
+    
     }
-
 }
