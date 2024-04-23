@@ -10,10 +10,7 @@ html, body {
 }
 
 header {
-      
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 1%;
     color:rgb(180, 17, 17); 
     background-color: var(--color1)} 
@@ -28,8 +25,6 @@ padding-left: 180px;
 }
 
 header nav ul { 
-    display: flex;
-    flex-direction: row;
     gap: 8px;
     font-size:larger;
     color:#47cbe2;
@@ -39,6 +34,7 @@ header nav ul {
 header button:hover {
     background-color: #757474;
     cursor: pointer;
+    transition:  1s;
 }
 
 header button {
@@ -47,42 +43,23 @@ header button {
     border-left: #0000;
     border-right: #0000;
     justify-content: space-between;
-    display:left;
     background-color:#0000;
     font-size:larger;
     font-family: Arial, Helvetica, sans-serif;
    
 }
 
-#article {
+article {
 
-    
-
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 
 article h2 {
     display: flex;
-    align-content;
 }
-
-#image {
-    /* background: url("skyscraper.jpg");
-    height: 300px;
-    color: white;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end; */
-/* 
-    overflow: hidden; */
-
-/*     
-    display: flex;
-    padding: 0;
-    margin: 0;
-    width: fit-content; */
-}
-
 
 
 .benefits {
@@ -108,14 +85,6 @@ article h2 {
     display: flex;
     justify-content: flex-end;
 }
-
-
-main {
-
-
-
-}
-
 
 
 
@@ -169,12 +138,6 @@ table td:hover {
     cursor: pointer;
 } 
 
-
-#pikachu {
-    display:flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
 
  .banner {
         width: 100%;
