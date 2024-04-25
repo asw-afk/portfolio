@@ -16,15 +16,21 @@ header {
     background-color: var(--color1)} 
 
 header h1 {
-color: var(--color1);
-border-style: initial;
-background-color: #1bc08f;
-background-size: 89%;
-background-position-x: 20%;
-padding-left: 180px;
+    display: flex;
+    color: var(--color1);
+    border-style: initial;
+    background-color: #1bc08f;
+    background-size: 89%;
+    background-position-x: 20%;
+    padding-left: 180px;
 }
 
+/* .portfolio{
+    
+} */
+
 header nav ul { 
+    display: flex;
     gap: 8px;
     font-size:larger;
     color:#47cbe2;
@@ -38,7 +44,9 @@ header button:hover {
 }
 
 header button {
-    
+    display: flex;
+    align-items: right;
+    flex-direction: row;
     border-top: #0000;
     border-left: #0000;
     border-right: #0000;
@@ -50,17 +58,31 @@ header button {
 }
 
 article {
-
 display: flex;
-flex-direction: column;
+flex-direction: row;
+align-items: center;
 justify-content: center;
+margin-bottom: 20px;
+padding: 50;
+height:300px;
+border-color:#171a19;
+border-radius: 2px;
 }
 
 
 article h2 {
     display: flex;
+    max-height:200px;
+    font-size: 36px;
+    
 }
 
+article img {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 200px;
+}
 
 .benefits {
     margin-right: 20px;
@@ -80,12 +102,17 @@ article h2 {
 }
 
 
-
+/* 
 .test {
     display: flex;
-    justify-content: flex-end;
+     justify-content: flex-end;
+   
 }
 
+#test:hover {
+    color: var(--color1);
+    opacity: 100%;
+} */
 
 
 table {
@@ -143,6 +170,7 @@ table td:hover {
         width: 100%;
 
     } 
+
 @media screen and (max-width: 789px) {
 
     header {
@@ -161,9 +189,5 @@ table td:hover {
 
     }
 
-    /* .banner {
-        display: flex;
-
-    } */
 
 }
