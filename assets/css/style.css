@@ -11,9 +11,12 @@ html, body {
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1%;
     color:rgb(180, 17, 17); 
-    background-color: var(--color1)} 
+    background-color: var(--color1)}
+    
 
 header h1 {
     display: flex;
@@ -25,15 +28,20 @@ header h1 {
     padding-left: 180px;
 }
 
-/* .portfolio{
+head nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     
-} */
+}
 
-header nav ul { 
+header nav li { 
     display: flex;
     gap: 8px;
     font-size:larger;
     color:#47cbe2;
+    margin-right: 10px;
 }
 
 
@@ -44,17 +52,13 @@ header button:hover {
 }
 
 header button {
-    display: flex;
-    align-items: right;
+    border: none;
     flex-direction: row;
-    border-top: #0000;
-    border-left: #0000;
-    border-right: #0000;
-    justify-content: space-between;
-    background-color:#0000;
-    font-size:larger;
+    background-color: #0000;
+    font-size:larger; 
     font-family: Arial, Helvetica, sans-serif;
-   
+    color: #37ca79;
+    text-decoration: underline;
 }
 
 article {
@@ -82,6 +86,27 @@ article img {
     justify-content: space-between;
     width: 400px;
     height: 200px;
+}
+
+article img:hover {
+    color:rgb(69, 78, 72);
+    cursor: pointer;
+}
+
+article div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.float-left {
+    float: left;
+    margin-left: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-right: 25px;
 }
 
 .benefits {
@@ -147,18 +172,16 @@ tr {
     vertical-align:inherit;
 }
 
-/* 
+
 thead, tfoot {
     background-color: rgb(228 240 245);
 }
 
 th, td {
-    border: 1px solid rgb(160 160 160)
+    border: 0px solid rgb(160 160 160);
     padding: 8px 10px;
     word-spacing: 40px;
 }
-
-time */
 
 table td:hover {
     color:rgb(150, 150, 150);
