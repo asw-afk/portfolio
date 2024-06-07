@@ -2,12 +2,13 @@
 html, body {
     padding: 0;
     margin:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color:  #171a19;
     color:aliceblue;
 }
 
@@ -19,7 +20,11 @@ nav li:hover {
 }
 
 #name {
-    color: rgb(25, 199, 147);
+    color:  #171a19;
+    margin: 3%;
+    background-color: rgb(25, 199, 147);
+    background-size: 90%;
+    padding-left: 10%;
 }
 
 #nav-links {
