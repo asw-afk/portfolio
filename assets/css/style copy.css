@@ -7,6 +7,15 @@ html, body {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color:aliceblue;
+}
+
+nav li:hover {
+    
+    background-color: grey;
+    cursor: pointer;
+    transition: 1s;
 }
 
 #name {
@@ -17,6 +26,7 @@ nav {
     display:flex;
     justify-content: flex-end;
     list-style-type: none;
+    gap: 30%;
 } 
 
 
