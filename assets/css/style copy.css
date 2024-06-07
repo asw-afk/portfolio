@@ -34,6 +34,30 @@ nav li:hover {
     gap: 30%;
 } 
 
+.title-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.title-container h1 {
+    margin-right: 10px;
+}
+
+.title-container p {
+    flex: 1; /* Allow the p element to take up remaining space */
+}
+
+.title-container::after {
+    content: '';
+    position: absolute;
+    border-left: 4px solid black;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    margin-left: 5px; /* Adjust this value to position the line */
+}
+
 .test {
     width: 40%;
 }
@@ -43,7 +67,7 @@ nav li:hover {
     z-index: 2;
 } 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1048px) {
    #name {
     color: red;
    }
@@ -51,4 +75,6 @@ nav li:hover {
 width:    20%;
 }
    
+
+
 }
