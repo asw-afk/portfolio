@@ -34,15 +34,21 @@ nav li:hover {
     gap: 30%;
 } 
 
+.test {
+    width: 40%;
+}
 
 .banner img {
     width: 100%;
     z-index: 2;
 } 
 
-@media screen and (max-width: 400px) {
-    #name {
-        color:blue;
-    }
-
+@media screen and (max-width: 480px) {
+   #name {
+    color: red;
+   }
+.test {
+width:    20%;
+}
+   
 }
